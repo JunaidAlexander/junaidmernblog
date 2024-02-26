@@ -1,0 +1,21 @@
+#about-us {
+  background: rgba(126, 117, 117, 0.4);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+#about-us h2 {
+  color: #343a40;
+}
+
+
+#about-us p {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  #about-us .col-lg-6 {
+    text-align: center;
+  }
+}

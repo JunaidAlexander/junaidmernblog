@@ -1,8 +1,11 @@
 .navbar {
+  display: flex;
+  justify-content: center;
   background: rgba(126, 117, 117, 0.4);
 }
 
 .navbar a {
+
   list-style: none;
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -19,6 +22,5 @@
 .navbar a:hover {
   color: rgb(232, 206, 33);
 }
-.navbar ul {
-  float: right;
-}
+
+.navbar ul {}
