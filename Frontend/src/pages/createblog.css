@@ -1,0 +1,17 @@
+.createblog {
+  background: rgb(0, 0, 0, 0.5);
+  color: aliceblue;
+}
+
+.createblog form {
+  max-width: 400px;
+  margin: 5px auto;
+}
+
+.createblog form textarea {
+  resize: none;
+}
+
+.createblog form .btn:hover {
+  background: green;
+}

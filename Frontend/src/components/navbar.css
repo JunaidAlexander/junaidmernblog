@@ -1,0 +1,24 @@
+.navbar {
+  background: rgba(126, 117, 117, 0.4);
+}
+
+.navbar a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.navbar a h2 {
+  color: rgb(231, 200, 4);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  color: rgb(232, 206, 33);
+}
+.navbar ul {
+  float: right;
+}

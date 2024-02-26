@@ -1,0 +1,33 @@
+body {
+  background-image: url("../images/hero-bg-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.head {
+  color: aliceblue;
+}
+.hero-bg {
+  background: rgb(0, 0, 0, 0.2);
+}
+.lead {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+.btn {
+  background: rgb(0, 0, 0, 0.7);
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: #d7c900;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: aliceblue;
+}

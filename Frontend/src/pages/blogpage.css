@@ -1,0 +1,44 @@
+.blog-page {
+  background: #ffffff;
+  height: 100vh;
+}
+
+.blog-con {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blog {
+  background: #f5f5f5;
+  margin: 10px;
+  width: 400px;
+  max-width: 400px;
+}
+
+.blog a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s all ease-in-out;
+}
+
+.blog a:hover {
+  color: rgb(196, 175, 40);
+}
+
+.blog .title {
+  font-weight: 700;
+}
+
+.blog-page h1 {
+  font-weight: 700;
+}
+
+.delete-blog {
+  background: #bd1212;
+}
+
+.delete-blog:hover {
+  background: #ff0000;
+}

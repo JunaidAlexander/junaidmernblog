@@ -1,0 +1,7 @@
+.update-form {
+  max-width: 500px;
+}
+
+.update-form textarea {
+  resize: none;
+}
