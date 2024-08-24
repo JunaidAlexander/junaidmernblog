@@ -8,8 +8,8 @@ const Blog = require("./models/blogSchema");
 const app = express();
 
 // connect to mongoDB
-// const dbURI = `mongodb+srv://siyamhlawuli13:blog-mern@cluster0.9ok00cy.mongodb.net/mern-blog?retryWrites=true&w=majority`;
-mongoose
+const dbURI = `mongodb+srv://siyamhlawuli13:blog-mern@cluster0.9ok00cy.mongodb.net/mern-blog?retryWrites=true&w=majority`;
+// mongoose
 	.connect(dbURI, {
 		useNewUrlParser: true,
 		useUnifiedTopology: true
